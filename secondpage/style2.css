@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+
+body {
+  margin:0;
+  padding:0;
+  border:0;
+  background-image: url('https://www.earlham.lib.ia.us/theme_resources/colorfulrecordbackground/image');
+  background-color: #777;
+}
+
+#header {
+  padding: 0px; margin: 0px; <
+  height: 50px;
+  width: 100% ;
+  background-color: #edff59; 
+  color: #000; 
+  font-family: Lora; 
+  font-weight: bold;
+  text-align: right; 
+  position: fixed; 
+  top: 0px; left: 0px;
+  z-index: 1; 
+}
+
+#logo {
+  z-index: 500; 
+  color: #9becb1; 
+  font-weight: bold;
+  height: 120px; 
+  width: 120px; 
+  display: inline-block; 
+  background-color: #fd3485; 
+  border-radius: 120px;
+  position: fixed; 
+  top: 3px; 
+  left: 4px; 
+}
+
+#logo>p {
+  padding: 3px;
+  text-align: center; 
+  font-size: 30px; 
+  font-family: Lora;
+}
+
+#content {
+  padding-top: 100px; 
+  height: 1000px; 
+  font-family: Lora;
+  color:#9becb1
+}
+
+.first-row {
+  width: 30%; 
+  height: 100px;
+  color: #d8d8d8;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  background-color: #189; 
+  float: left; 
+  margin: 10px; 
+}
+
+.second-row {
+  width: 430px;
+  height: 100px;
+  color: #d8d8d8;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  background-color: #189; 
+  float: left; 
+  margin: 10px; 
+}
+
+.third-row {
+  width: 100px;
+  height: 20px;
+  color: #d8d8d8;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  background-color: #189; 
+  margin: 10px; 
+}
+
+#contact-box {
+ height: 70px; 
+  width: 200px;
+  background-color: #c0c7cc; 
+  color: #030404; 
+  font-family: Raleway; 
+  font-weight: bold;
+  position: fixed;
+  bottom: 15%; 
+  right: 0px; 
+
+#footer {
+  height: 6px; 
+  width: 100%;
+  border-top: dashed 1px #d8d8d8; 
+  color: #93ecdc;
+  font-family: Lora;
+}
+
+#footer>p {
+  text-align:center;
+}
